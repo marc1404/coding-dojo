@@ -99,6 +99,7 @@ fun main(args: Array<String>) {
 }
 
 fun printPage(lines: List<String>, page: Int, pageSize: Int, needle: String? = null) {
+    println("\u001Bc")
     println("### Start of page ${page + 1} ##")
 
     val start = page * pageSize
